@@ -119,11 +119,13 @@ nav .container{
 }
 
 .discount{
+    display: inline-block;
     background-color: red;
     margin-right: 5px;
     padding: 5px 10px;
 }
 .material{
+    display: inline-block;
     background-color: green;
     padding: 5px 10px;
 }
