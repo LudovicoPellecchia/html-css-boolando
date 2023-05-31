@@ -74,11 +74,24 @@ nav .container{
     position: relative;
 }
 
-.product-pic{
+.product-pic,.hover-img{
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
+
+.hover-img{
+    display: none;
+}
+
+.product:hover .hover-img{
+    display: inline-block;
+}
+
+.product:hover .product-pic{
+    display: none;
+}
+
 
 .img-info{
     position: absolute;
@@ -144,6 +157,9 @@ footer .container{
 }
 
 .social-icons i{
+    font-size: 1.2rem;
     padding-right: 6px;
     color: white;
 }
+
+
