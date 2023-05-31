@@ -59,12 +59,22 @@ nav .container{
 
 .row{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .item{
-    flex-grow: 1;
+    padding: 10px;
+    flex-basis: 33.3%;
+    position: relative;
 }
 
-.item img{
+.product{
+    display: inline-block;
     height: 500px;
+}
+
+.product-pic{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
