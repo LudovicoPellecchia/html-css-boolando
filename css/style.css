@@ -115,3 +115,35 @@ nav .container{
     color: red;
     margin-right: 5px;
 }
+
+footer{
+    padding: 40px;
+    background-color: black;
+}
+
+
+footer .container{
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.legal-info{
+    padding-top: 1rem;
+}
+.legal-info a{
+    color: white;
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+.social-icons h4{
+    padding-bottom: 1rem;
+}
+
+.social-icons i{
+    padding-right: 6px;
+    color: white;
+}
