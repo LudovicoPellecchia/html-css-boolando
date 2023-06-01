@@ -99,6 +99,9 @@ nav .container{
     display: none;
 }
 
+.product:hover .like{
+    color: red;
+}
 
 .img-info{
     position: absolute;
